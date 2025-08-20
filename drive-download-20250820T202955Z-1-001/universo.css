@@ -1,0 +1,228 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+#cabecalho {
+
+  background-color: #3E2C23;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px;
+
+
+}
+
+.lista {
+
+  text-decoration: none;
+  color: #E2D6C2;
+  font-size: 20px;
+  margin-left: 40px;
+
+}
+
+#lista-universo {
+
+  width: 20%;
+  font-size: 20px;
+  text-decoration: none;
+  color: #E2D6C2;
+}
+
+#tamanho-logo {
+
+  width: 50%;
+  margin-left: 5%;
+
+}
+
+
+#titulo {
+
+  width: 50%;
+
+}
+
+#parfum {
+  display: block;
+  text-align: center;
+}
+
+.svg {
+
+  width: 40px;
+  height: 40px;
+  fill: #A86E3A;
+  margin-right: 50px;
+
+}
+
+#banner {
+
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+/* CONTEÚDO */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background: #fff;
+  margin: 40px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* Texto à esquerda */
+.texto {
+  flex: 1;
+  padding: 40px;
+}
+
+.texto h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.texto p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Imagem à direita */
+.imagem {
+  flex: 1;
+}
+
+.imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+#rodape {
+
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #3b2f2f;
+  color: #E2D6C2;
+  width: 100%;
+
+
+}
+
+#logo-rodape {
+
+  width: 70%;
+  margin-left: 5%;
+}
+
+#nave {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 100%;
+}
+
+.lame {
+  margin-right: 43%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.naveg-a {
+
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 23%;
+  margin-top: 10px;
+  color: #E2D6C2;
+}
+
+
+#nome {
+
+  text-decoration: none;
+  color: #E2D6C2;
+}
+
+#ppp {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+#local {
+
+  color: #E2D6C2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+
+#titulo-sac {
+
+  color: #E2D6C2;
+  font-size: 40px;
+  margin-top: 6.8%;
+
+}
+
+#numero-svg {
+
+  display: flex;
+  margin-top: 10%;
+
+}
+
+#svg-phone {
+
+  height: 20px;
+  fill: #E2D6C2;
+  gap: 10px;
+}
+
+#email-svg {
+
+  display: flex;
+  margin-top: 3%;
+}
+
+#svg-envelope {
+
+  height: 20px;
+  fill: #E2D6C2;
+
+}
+
+#news {
+
+  margin-top: 6.8%;
+}
+
+
+#input {
+
+  margin-top: 10%;
+  vertical-align: middle;
+ 
+}
+
+#svg-envio {
+
+  height: 25px;
+  vertical-align: middle;
+
+}
+
