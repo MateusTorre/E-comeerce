@@ -1,0 +1,234 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+#cabecalho {
+
+  background-color: #3E2C23;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px;
+
+
+}
+
+.lista {
+
+  text-decoration: none;
+  color: #E2D6C2;
+  font-size: 20px;
+  margin-left: 40px;
+
+}
+
+#lista-universo {
+
+  width: 20%;
+  font-size: 20px;
+  text-decoration: none;
+  color: #E2D6C2;
+}
+
+#tamanho-logo {
+
+  width: 50%;
+  margin-left: 5%;
+
+}
+
+
+#titulo {
+
+  width: 50%;
+
+}
+
+#parfum {
+  display: block;
+  text-align: center;
+}
+
+.svg {
+
+  width: 40px;
+  height: 40px;
+  fill: #A86E3A;
+  margin-right: 50px;
+
+}
+
+#banner {
+
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+
+/* fragancias ------------------ */
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+
+.carrossel {
+  position: relative;
+  width: 80%;
+  max-width: 70%;
+  margin: 50px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #A86E3A;
+}
+
+.slide .img {
+
+  width: 80%;
+  height: 80%;
+  text-align: center;
+  position: relative;
+}
+
+.price {
+position: absolute;
+left: 50%;
+top: 93%;
+transform: translate(-50%,-50%);
+color: rgb(255, 255, 255);
+width: 60%;
+height: 5vh;
+opacity: 0;
+transition: 0.5s;
+font-size: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+.slide:hover .price { opacity: 1;}
+.slide:hover .img img { transition: 0.6s; height: 85%;}
+
+
+
+.slide .img img {
+  height: 100%;
+  transition: 0.6s;
+
+
+}
+
+/* Radio buttons ocultos */
+
+input[type="radio"] {
+  display: none;
+}
+
+#slide1:checked~.slides {
+  transform: translateX(0%);
+}
+
+#slide2:checked~.slides {
+  transform: translateX(-100%);
+}
+
+#slide3:checked~.slides {
+  transform: translateX(-200%);
+}
+
+/* Navegação manual */
+
+.navegacao-manual {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.botao-manual {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: gray;
+}
+
+.botao-manual:hover {
+  background-color: #fff;
+}
+
+.fundo {
+
+  background-color: #A86E3A;
+  width: 100%;
+}
+
+#fundo2 {
+
+  background-color: #282C2E;
+  width: 100%;
+}
+
+#fundo3 {
+
+  background-color: #AE0915;
+  width: 100%;
+}
+
+#fundo4 {
+
+  background-color: #496827;
+  width: 100%;
+}
+
+#fundo5 {
+
+  background-color: #13153A;
+  width: 100%;
+}
+
+#fundo6 {
+
+  background-color: #F2D8CA;
+  width: 100%;
+}
+
+#fundo7 {
+
+  background-color: #2E5F55;
+  width: 100%;
+}
+
+.menor img {
+  transform: scale(0.9); /* diminui um pouco */
+  transition: transform 0.3s ease;
+}
